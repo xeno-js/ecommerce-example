@@ -1,0 +1,25 @@
+export const COMMON_CONSTANTS = Object.freeze({
+    // VITE
+    VITE_PREFIX: 'VITE_',
+
+    // ENVIRONMENT
+    ENV: 'ENVIRONMENT',
+    MODE: 'MODE',
+    
+    // SUPABASE
+    SUPABASE_URL: 'SUPABASE_URL',
+    SUPABASE_KEY: 'SUPABASE_KEY',
+    SUPABASE_TOKEN: 'supabase_token',
+    
+    // BASE URL API BE
+    API_BASE_URL: 'API_BASE_URL',
+    CSRF: 'CSRF',
+    
+    // SENTRY
+    SENTRY_DSN: 'SENTRY_DSN',
+    SENTRY_LOG_LEVEL: 'SENTRY_LOG_LEVEL',
+
+    // IUBENDA
+    IUBENDA_SITE_ID: 'IUBENDA_SITE_ID',
+    IUBENDA_COOKIE_POLICY_ID: 'IUBENDA_COOKIE_POLICY_ID',
+} as const)

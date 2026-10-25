@@ -1,0 +1,33 @@
+{
+  "name": "@ecommerce/core-logic",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "db:migrate": "drizzle-kit migrate ",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@xeno-js/core": "^4.0.0",
+    "@xeno-js/redis": "^1.0.0",
+    "@xeno-js/pino": "^1.0.1",
+    "@xeno-js/sentry-node": "^1.0.0",
+    "@xeno-js/postgresql": "^2.0.0",
+    "@xeno-js/supabase": "^1.0.0",
+    "@xeno-js/zod": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.23.1",
+    "drizzle-kit": "^0.31.11",
+    "pino-pretty": "^11.2.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.8.0"
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="clientPulseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#aa3bff" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#0f172a"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" stroke="#334155" stroke-width="16"/>
+  <path d="M100 256 H165 L210 145 L275 367 L320 235 H412" stroke="url(#clientPulseGrad)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

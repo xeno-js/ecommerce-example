@@ -1,0 +1,38 @@
+{
+  "name": "@ecommerce/frontend-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@xeno-js/axios": "^1.0.0",
+    "@xeno-js/sentry-vue": "^1.0.0",
+    "@xeno-js/core": "4.0.0",
+    "@xeno-js/vue": "^2.0.0",
+    "@xeno-js/zod": "^1.0.0",
+    "bootstrap-icons": "^1.13.1",
+    "cockatiel": "^4.0.0",
+    "unhead": "^3.4.0",
+    "vue": "^3.5.41",
+    "vue-i18n": "^11.4.10",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.8",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vite-ssg": "^28.3.0",
+    "vue-tsc": "^3.3.11"
+  }
+}
