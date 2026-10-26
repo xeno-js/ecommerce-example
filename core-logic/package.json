@@ -1,5 +1,6 @@
 {
   "name": "@ecommerce/core-logic",
+  "description": "Core business logic, domain models, CQRS handlers, and database schema sharing for the Xeno.js enterprise e-commerce example.",
   "version": "1.0.0",
   "private": true,
   "main": "./dist/index.js",
@@ -13,7 +14,7 @@
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
-    "@xeno-js/core": "^4.0.0",
+    "@xeno-js/core": "^4.1.1",
     "@xeno-js/redis": "^1.0.0",
     "@xeno-js/pino": "^1.0.1",
     "@xeno-js/sentry-node": "^1.0.0",
@@ -29,5 +30,20 @@
     "pino-pretty": "^11.2.2",
     "tsx": "^4.7.0",
     "typescript": "^5.8.0"
-  }
+  },
+  "keywords": [
+    "xeno",
+    "xeno-js",
+    "ecommerce",
+    "core-logic",
+    "clean architecture",
+    "hexagonal architecture",
+    "cqrs",
+    "domain-driven design",
+    "ddd",
+    "drizzle",
+    "postgresql",
+    "zod",
+    "typescript"
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "name": "@ecommerce/frontend-vue",
+  "description": "Isomorphic Vue 3 frontend application with Pinia state management and @xeno-js/vue integration for the Xeno.js e-commerce example.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "@xeno-js/axios": "^1.0.0",
     "@xeno-js/sentry-vue": "^1.0.0",
-    "@xeno-js/core": "4.0.0",
+    "@xeno-js/core": "4.1.1",
     "@xeno-js/vue": "^2.0.0",
     "@xeno-js/zod": "^1.0.0",
     "bootstrap-icons": "^1.13.1",
@@ -34,5 +35,18 @@
     "vite": "^8.2.2",
     "vite-ssg": "^28.3.0",
     "vue-tsc": "^3.3.11"
-  }
+  },
+  "keywords": [
+    "xeno",
+    "xeno-js",
+    "frontend",
+    "vue",
+    "vue3",
+    "pinia",
+    "ecommerce client",
+    "spa",
+    "isomorphic",
+    "clean architecture",
+    "typescript"
+  ]
 }

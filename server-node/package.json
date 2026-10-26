@@ -1,5 +1,6 @@
 {
   "name": "server-fastify",
+  "description": "Native Node.js HTTP server bootstrap and configuration for the Xeno.js e-commerce example utilizing @xeno-js/node.",
   "version": "1.0.0",
   "private": true,
   "main": "./dist/index.js",
@@ -25,5 +26,17 @@
     "pino-pretty": "^11.2.2",
     "tsx": "^4.7.0",
     "typescript": "^5.8.0"
-  }
+  },
+  "keywords": [
+    "xeno",
+    "xeno-js",
+    "server-node",
+    "nodejs",
+    "node.js",
+    "http server",
+    "ecommerce backend",
+    "clean architecture",
+    "dependency injection",
+    "typescript"
+  ]
 }

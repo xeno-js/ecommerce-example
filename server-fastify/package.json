@@ -1,5 +1,6 @@
 {
   "name": "server-fastify",
+  "description": "High-performance Fastify server bootstrap and configuration for the Xeno.js e-commerce example utilizing @xeno-js/fastify.",
   "version": "1.0.0",
   "private": true,
   "main": "./dist/index.js",
@@ -25,5 +26,17 @@
     "pino-pretty": "^11.2.2",
     "tsx": "^4.7.0",
     "typescript": "^5.8.0"
-  }
+  },
+  "keywords": [
+    "xeno",
+    "xeno-js",
+    "server-fastify",
+    "fastify",
+    "http server",
+    "ecommerce backend",
+    "high performance",
+    "clean architecture",
+    "dependency injection",
+    "typescript"
+  ]
 }
