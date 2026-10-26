@@ -17,7 +17,7 @@ export const authRoutes: NativeRouteDefinition<MyRegistry>[] = [{
     }
 }, {
     path: '/api/v1/auth/logout',
-    method: 'GET',
+    method: 'POST',
     handler: async (ctx: RouteHandlerContext<MyRegistry>) => {
         return ctx.handle('AUTH_LOGOUT_CONTROLLER')
     }
