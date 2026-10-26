@@ -1,5 +1,7 @@
 <div align="center">
-  <h1>Xeno.JS Enterprise E-Commerce Example</h1>
+  <img src="logo/logo.png" alt="Xeno CLI Logo" width="140" />
+
+  <h1>Xeno.JS E-Commerce Example</h1>
   <p><strong>Demonstrating Isomorphic Architecture, CQRS, and Transport Interchangeability.</strong></p>
   <p>
     <a href="https://github.com/xeno-js/xeno-shared">
