@@ -10,7 +10,7 @@ export class LogoutHandler extends BaseHandler<LogoutCommand, void> {
     }
 
     async executeAsync(_command: LogoutCommand, signal: AbortSignal) {
-        const result = await this._client.get<ApiResponseDto<void>>('/v1/auth/logout', { signal });
+        const result = await this._client.post<ApiResponseDto<void>>('/v1/auth/logout', {}, { signal });
         
         if(!result.isOk())
             return Result.fail<void, AppError>(result.getErrorOrThrow())
